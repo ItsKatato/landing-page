@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
+
+* {
+    border: 1px red;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-section {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.main-image {
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.info-section {
+    display: flex;
+    gap: 50px;
+}
+
+.info-snippet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.info-txt {
+    text-align: center;
+}
+
+.info-img {
+    height: 200px;
+    width: 200px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+}  
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items:start;
+}
+
+.signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.signup-module {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 30px;
+    width: 50%;
+}
+
+.signup-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-title,
+.signup-txt {
+    margin: 0px;
+    flex: 0;
+}
+
+.signup-section-button {
+    border: 0;
+    padding: 0;
+}
